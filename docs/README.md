@@ -6,24 +6,20 @@ Eye Vision provides a simple but powerful python library for Computer Vision. It
 well know libraries libraries like OpenCv and Dask. Typical usage
 often looks like this::
 
-    import ziso
     from ziso import view
-    
-    file = ziso.read("image.jpg")
-    view.rgb("image")
-    
-    from ziso import zen
+    from ziso import test
+
+    test(text)
+    test(image)
 
 Speed
 =========
 
-Your favourite libraries compressed:
+Optimized libraries were uer:
 
-* OpenCV
+* Dask
 
-* Matplotlib
-
-* etc
+* Cython
 
 Note:
 -------------
@@ -36,6 +32,5 @@ Things to expect and know:
 
 3. Portability
 
-Read the Docs:-> Urls are https://eye-vision.readthedocs.io <br>
-Eye-vision webpage:-> https://simbatmotsi.github.io/eye-vision/ <br>
-Personal webpage:-> <http://bit.ly/simbatmotsi>
+Read the Docs:-> Urls are http://like.this and links can be
+Personal webpage:-> <http://www.example.com/foo/bar>

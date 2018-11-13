@@ -1,2 +1,4 @@
-name = "eye-vision"
-__all__ = ["view"]
+from ziso import *
+from .view import *
+from .read import *
+# __all__ = ["view","read"]
