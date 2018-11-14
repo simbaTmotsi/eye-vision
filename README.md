@@ -2,15 +2,18 @@
 **Eye Vision**
 ===========
 
+[![CircleCI](https://circleci.com/gh/simbaTmotsi/eye-vision.svg?style=svg)](https://circleci.com/gh/simbaTmotsi/eye-vision)
+
 Eye Vision provides a simple but powerful python library for Computer Vision. It uses
-well know libraries libraries like OpenCv and Dask. Typical usage
+well know libraries like OpenCv and Matplotlib. Typical usage
 often looks like this::
 
     import ziso
+    from ziso import read
     from ziso import view
     
-    file = ziso.read("image.jpg")
-    view.rgb("image")
+    file = read.rgb("image.jpg")
+    view(file)
     
     from ziso import zen
 
