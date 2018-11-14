@@ -6,9 +6,12 @@ module to read images
 '''
 Reading images in RGB format
 '''
-def read(image_or_frame):
+def rgb(image_or_frame):
     # reading an image in the default BGR format for opencv
-    image_or_frame = cv2.cvtColor(cv2.imread(image_or_frame),cv2.COLOR_BGR2RGB);
+    try:
+        image_or_frame = cv2.cvtColor(cv2.imread(image_or_frame),cv2.COLOR_BGR2RGB)
+    except:
+        print ("Please check the file path, there seems to be an error")
     """
     error checking
     """
@@ -25,9 +28,9 @@ def read(image_or_frame):
 '''
 Reading images in BGR format
 '''
-def read_bgr(image_or_frame):
+def bgr(image_or_frame):
     # reading an image in the default BGR format for opencv
-    image_or_frame = cv2.imread(image_or_frame);
+    image_or_frame = cv2.imread(image_or_frame)
     """
     error checking
     """
@@ -44,9 +47,9 @@ def read_bgr(image_or_frame):
 '''
 Reading images in grayscale format
 '''
-def read_gray(image_or_frame):
+def gray(image_or_frame):
     # reading an image in the default BGR format for opencv
-    image_or_frame = cv2.imread(image_or_frame,0);
+    image_or_frame = cv2.imread(image_or_frame, 0)
     """
     error checking
     """

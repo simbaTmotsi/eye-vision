@@ -1,3 +1,2 @@
-from .gray import *
-from .rgb import *
-#__all__ = ["rgb","gray"]
+#from .view import *
+__all__ = ["view"]
