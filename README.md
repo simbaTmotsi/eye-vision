@@ -2,7 +2,7 @@
 **Eye Vision**
 ===========
 
-[![CircleCI](https://circleci.com/gh/simbaTmotsi/eye-vision.svg?style=svg)](https://circleci.com/gh/simbaTmotsi/eye-vision)
+[![Downloads](https://pepy.tech/badge/eye-vision)](https://pepy.tech/project/eye-vision)
 
 Eye Vision provides a simple but powerful python library for Computer Vision. It uses
 well know libraries like OpenCv and Matplotlib. Typical usage
@@ -12,9 +12,12 @@ often looks like this::
     from ziso import read
     from ziso import view
     
-    file = read.rgb("image.jpg")
-    view(file)
+    # to read the image in the rgb color scale
+    file = read.rgb("test.jpg")
+    # to view the image
+    view.im(file)
     
+    # to view the easter egg in the library
     from ziso import zen
 
 Speed

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="eye-vision",
-    version="0.0.0",
+    version="0.0.2",
     author="Simbarashe Timothy Motsi",
     author_email="simbamotsi1@gmail.com",
     description="Computer Vision library that makes simple the new powerful.",
