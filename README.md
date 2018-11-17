@@ -7,6 +7,8 @@
 [![Python 3](https://pyup.io/repos/github/simbaTmotsi/eye-vision/python-3-shield.svg)](https://pyup.io/repos/github/simbaTmotsi/eye-vision/)
 [![PyPI version](https://badge.fury.io/py/eye-vision.svg)](https://badge.fury.io/py/eye-vision)
 [![Updates](https://pyup.io/repos/github/simbaTmotsi/eye-vision/shield.svg)](https://pyup.io/repos/github/simbaTmotsi/eye-vision/)
+[![Code Climate](https://codeclimate.com/github/simbaTmotsi/eye-vision/badges/gpa.svg)](https://codeclimate.com/github/simbaTmotsi/eye-vision)
+
 <br>
 Eye Vision provides a simple but powerful python library for Computer Vision. It uses
 well know libraries like OpenCv and Matplotlib. Typical usage
