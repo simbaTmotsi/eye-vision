@@ -4,6 +4,7 @@
 
 [![Downloads](https://pepy.tech/badge/eye-vision)](https://pepy.tech/project/eye-vision)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<br>
 Eye Vision provides a simple but powerful python library for Computer Vision. It uses
 well know libraries like OpenCv and Matplotlib. Typical usage
 often looks like this::
